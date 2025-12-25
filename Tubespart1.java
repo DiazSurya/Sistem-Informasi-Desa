@@ -82,8 +82,7 @@ public class Tubespart1 {
         System.out.println("+----------------+--------------------------+----------------+--------------------------+");
        
 		for (int i = 0; i < jumlahData; i++) {
-            // Pencarian case-insensitive dan bisa parsial (contains)
-            if (nik[i].contains(Cari) || nama[i].toLowerCase().contains(Cari.toLowerCase())) {
+           if (nik[i].contains(Cari) || nama[i].toLowerCase().contains(Cari.toLowerCase())) {
                 System.out.printf("| %-14s | %-24s | %-14s | %-24s |\n", nik[i], nama[i], desa[i], status[i]);
                 ditemukan = true;
             }
@@ -177,6 +176,3 @@ public class Tubespart1 {
 		} while (pilihan != 4);
 	}
 }
-
-//anjing
-// jing
